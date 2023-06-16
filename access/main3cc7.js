@@ -548,11 +548,11 @@ nlgi.addEventListener('click', function () {
 
 
 
-isInWebAppiOS = (window.navigator.standalone === true);
-isInWebAppChrome = (window.matchMedia('(display-mode: standalone)').matches);
-
-if(isInWebAppiOS == false && isInWebAppChrome == false){
-	$('body').html('<div class="nonono">Натисніть на три крапки в браузері та додайте сторінку на головний екран</div>');
-	$('body').addClass('nononopage');
-}
-
+// isInWebAppiOS = (window.navigator.standalone === true);
+// isInWebAppChrome = (window.matchMedia('(display-mode: standalone)').matches);
+//
+// if(isInWebAppiOS == false && isInWebAppChrome == false){
+// 	$('body').html('<div class="nonono">Натисніть на три крапки в браузері та додайте сторінку на головний екран</div>');
+// 	$('body').addClass('nononopage');
+// }
+//
